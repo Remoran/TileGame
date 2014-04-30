@@ -95,7 +95,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outletCollection property="pieces" destination="zt9-4g-ysm" id="87u-Hr-Agf"/>
                         <outletCollection property="pieces" destination="prn-ap-Xyg" id="yst-Pu-3Ut"/>
