@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Puzzle15 View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="Puzzle15ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" id="Oq1-eY-0Gf">
+                                <rect key="frame" x="20" y="40" width="280" height="300"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="one.jpg" id="zt9-4g-ysm" customClass="PieceView">
+                                        <rect key="frame" x="-2" y="1" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" image="two.jpg" id="prn-ap-Xyg" customClass="PieceView">
+                                        <rect key="frame" x="69" y="1" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" image="three.jpg" id="Ktp-1w-TLk" customClass="PieceView">
+                                        <rect key="frame" x="140" y="1" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" image="four.jpg" id="ube-hA-qEf" customClass="PieceView">
+                                        <rect key="frame" x="211" y="1" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" image="eight.jpg" id="jDd-4H-3bD" customClass="PieceView">
+                                        <rect key="frame" x="211" y="72" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" image="seven.jpg" id="uDk-rO-L4A" customClass="PieceView">
+                                        <rect key="frame" x="140" y="72" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" image="six.jpg" id="aVX-3J-x84" customClass="PieceView">
+                                        <rect key="frame" x="69" y="72" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" image="five.jpg" id="XsJ-hK-cA2" customClass="PieceView">
+                                        <rect key="frame" x="-2" y="72" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" image="nine.jpg" id="7I1-6m-ugH" customClass="PieceView">
+                                        <rect key="frame" x="-2" y="141" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="12" contentMode="scaleToFill" image="thirteen.jpg" id="FKS-6v-Nyw" customClass="PieceView">
+                                        <rect key="frame" x="-2" y="211" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" image="ten.jpg" id="4hK-up-XSZ" customClass="PieceView">
+                                        <rect key="frame" x="69" y="141" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="13" contentMode="scaleToFill" image="fourteen.jpg" id="woW-ff-X0C" customClass="PieceView">
+                                        <rect key="frame" x="69" y="211" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" image="eleven.jpg" id="sep-3R-A8d" customClass="PieceView">
+                                        <rect key="frame" x="140" y="141" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="14" contentMode="scaleToFill" image="fifteen.jpg" id="xea-q5-WcF" customClass="PieceView">
+                                        <rect key="frame" x="140" y="211" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="11" contentMode="scaleToFill" image="twelve.jpg" id="4ug-bv-dsA" customClass="PieceView">
+                                        <rect key="frame" x="211" y="141" width="71" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JKR-3a-jhY">
+                                <rect key="frame" x="123" y="375" width="75" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63266389266304346" green="0.48483511622476877" blue="0.25306234281325307" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Shuffle">
+                                    <color key="titleColor" red="0.54190726902173914" green="0.0" blue="0.05726326656833669" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shufflePieces:" destination="2" eventType="touchUpInside" id="9mj-2H-3lP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+                    <connections>
+                        <outletCollection property="pieces" destination="zt9-4g-ysm" id="87u-Hr-Agf"/>
+                        <outletCollection property="pieces" destination="prn-ap-Xyg" id="yst-Pu-3Ut"/>
+                        <outletCollection property="pieces" destination="Ktp-1w-TLk" id="EKU-Uc-3tD"/>
+                        <outletCollection property="pieces" destination="ube-hA-qEf" id="Kvg-CN-bwE"/>
+                        <outletCollection property="pieces" destination="XsJ-hK-cA2" id="5Xs-mJ-Qjb"/>
+                        <outletCollection property="pieces" destination="aVX-3J-x84" id="ZNE-8H-6sR"/>
+                        <outletCollection property="pieces" destination="uDk-rO-L4A" id="5t5-9m-LKy"/>
+                        <outletCollection property="pieces" destination="jDd-4H-3bD" id="c2z-Uo-dOa"/>
+                        <outletCollection property="pieces" destination="4ug-bv-dsA" id="dpy-gy-fMG"/>
+                        <outletCollection property="pieces" destination="sep-3R-A8d" id="CEy-Qh-6KA"/>
+                        <outletCollection property="pieces" destination="4hK-up-XSZ" id="kWK-pB-dhD"/>
+                        <outletCollection property="pieces" destination="7I1-6m-ugH" id="WcE-wC-ZFH"/>
+                        <outletCollection property="pieces" destination="FKS-6v-Nyw" id="7il-xH-6Zj"/>
+                        <outletCollection property="pieces" destination="woW-ff-X0C" id="tu3-Bw-9YO"/>
+                        <outletCollection property="pieces" destination="xea-q5-WcF" id="9z6-KM-Glv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="eight.jpg" width="52" height="52"/>
+        <image name="eleven.jpg" width="52" height="52"/>
+        <image name="fifteen.jpg" width="52" height="52"/>
+        <image name="five.jpg" width="52" height="52"/>
+        <image name="four.jpg" width="52" height="52"/>
+        <image name="fourteen.jpg" width="52" height="52"/>
+        <image name="nine.jpg" width="52" height="52"/>
+        <image name="one.jpg" width="52" height="52"/>
+        <image name="seven.jpg" width="52" height="52"/>
+        <image name="six.jpg" width="52" height="52"/>
+        <image name="ten.jpg" width="52" height="52"/>
+        <image name="thirteen.jpg" width="52" height="52"/>
+        <image name="three.jpg" width="52" height="52"/>
+        <image name="twelve.jpg" width="52" height="52"/>
+        <image name="two.jpg" width="52" height="52"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
